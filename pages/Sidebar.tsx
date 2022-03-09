@@ -175,7 +175,7 @@ const SidebarUtils = {
   lightGreyColor: "#353945",
 };
 
-const StyledComponents = {
+const StyledComponents: any = {
   Wrapper: styled.div`
     color: ${SidebarUtils.fontColor};
     // border-right: 2px solid  ${SidebarUtils.dividerColor};
