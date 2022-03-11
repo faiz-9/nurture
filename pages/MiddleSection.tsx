@@ -113,7 +113,7 @@ const MiddleSection = ({ data }: any) => {
                 <th>REFERRAL EARNING</th>
               </thead>
 
-              {data.map((data: any) => (
+              {data?.map((data: any) => (
                 <>
                   <div>
                     <tr>
